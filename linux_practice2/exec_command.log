@@ -1,0 +1,218 @@
+    1  ls /
+    2  ls /usr
+    3  cd /home
+    4  vi README.md
+    5  ls
+    6  ls /usr
+    7  pwd
+    8  cd /root
+    9  pwd
+   10  usr
+   11  cd /root
+   12  cd usr
+   13  /usr
+   14  pwd
+   15  ls
+   16  /home
+   17  cd /home
+   18  mkdir test1
+   19  ls
+   20  cd /home
+   21  mkdir test2/test3
+   22  mkdir -q test2/test3
+   23  ls
+   24  /home
+   25  cd /home
+   26  mkdir -p test2/test3
+   27  ls test2
+   28  ls
+   29  ls /test2
+   30  ls test2
+   31  touch test/index.php
+   32  cd /home
+   33  touch test/index.php
+   34  touch test1/index.php
+   35  ls test1
+   36  cd /home/test1 && ls
+   37  /home/test1
+   38  cd /home/test1
+   39  cp index.php copy.php
+   40  ls
+   41  ls
+   42  cd /home
+   43  cp -r test1 test4
+   44  ls
+   45  ls test4
+   46  cd /home
+   47  mv test2/test3 test3
+   48  ls
+   49  cd /home
+   50  mv test4 test1_copy
+   51  ls
+   52  cd /home
+   53  ls test1
+   54  rm test1/copy.php
+   55  ls test1
+   56  cd /home
+   57  rm -r test3
+   58  ls
+   59  cd /home
+   60  re test1_copy/*.php
+   61  rm test1_copy/*.php
+   62  ls test1_copy
+   63  docker start centos7
+   64  docker start centos7
+   65  docker stop centos7
+   66  ls
+   67  ls/
+   68  ls /
+   69  docker stop centos7
+   70  docker ps
+   71  docker container stop centos7
+   72  docker stop centos7
+   73  pwd
+   74  ls
+   75  cd usr
+   76  ls
+   77  cd /
+   78  ls
+   79  mkdir docker_lesson
+   80  mkdir docker_lesson && cd docker_lesson
+   81  ls
+   82  cd docker_lesson
+   83  git clone https://github.com/gizumo-education/docker_training.git
+   84  git clone https://github.com/gizumo-education/docker_training.git
+   85  docker run
+   86  pwd
+   87  git clone https://github.com/gizumo-education/docker_training.git
+   88  cd /
+   89  ls
+   90  pws
+   91  pwd
+   92  cd /root
+   93  pwd
+   94  mkdir server_lesson && cd server_lesson
+   95  yum update -y && yum -y install git
+   96  git version
+   97  git init
+   98  touch first.txt
+   99  ls
+  100  ls -a
+  101  pwd
+  102  pwd
+  103  open /
+  104  mkdir linux_practice1
+  105  cd linux_practice1
+  106  mkdir public
+  107  mkdir index.php
+  108  ls
+  109  rm index.php
+  110  rm index.php
+  111  ls
+  112  cd public
+  113  mkdir index.php
+  114  cp index.php index_bk.php
+  115  cd public
+  116  ls
+  117  cp index.php index_bk.php
+  118  cd inde.php
+  119  ../
+  120  cd ../
+  121  ../
+  122  cd ../
+  123  ls
+  124  cd linux_practice1
+  125  cd linux_practice1
+  126  cd public
+  127  ls
+  128  rmdir index.php
+  129  touch index.php
+  130  cp index.php index_bk.php
+  131  ls
+  132  cd ./
+  133  cd ../
+  134  cd /
+  135  ls
+  136  cd docker_lesson
+  137  ls
+  138  cd /
+  139  cd root
+  140  ls
+  141  cd server_lesson
+  142  ls
+  143  cd linux_practice1
+  144  ls
+  145  cp -r public tmp
+  146  ls
+  147  cd tmp
+  148  ls
+  149  rm index_bk.php
+  150  cd /
+  151  ls
+  152  cd root/server_lesson
+  153  cd ./
+  154  cd ../
+  155  ls
+  156  git add server_lesson
+  157  git log
+  158  cd server_lesson
+  159  git log
+  160  git add linux_practice1
+  161  git commit -m 'first commit'
+  162  git config --global user.email "yokose.kaori0219@gmail.com"
+  163  config --global user.name "yokose.kaori"
+  164  git config --global user.name "yokose.kaori"
+  165  git add linux_practice1
+  166  git commit -m 'first commit'
+  167  touch README.md
+  168  vi README.md
+  169  git add linux_practice1
+  170  git commit -m 'Practice 1-5 done'
+  171  git status
+  172  ls server_lesson
+  173  ls
+  174  cd linux_practice1/public
+  175  git status
+  176  cd ../
+  177  cd ../
+  178  git add README.md
+  179  git commit -m 'Practice 1-5 done'
+  180  git status
+  181  mkdir linux_practice2 && cd linux_practice2
+  182  mkdir documents
+  183  touch gizumo{01..50}.md
+  184  ls
+  185  rm -rf gizumo{01..50}.md
+  186  ls
+  187  cd documents
+  188  touch gizumo{01..50}.md
+  189  ls
+  190  cd ../
+  191  mkdir trash && cd trash
+  192  cd ./
+  193  cd ../
+  194  cd documents
+  195  mv gizumo{20..40}.md ../trash/.
+  196  cd ../trash
+  197  ls
+  198  cd ../
+  199  touch .gitignore
+  200  ls
+  201  vi .gitignore
+  202  git status
+  203  vi .gitignore
+  204  cd docments
+  205  cd trash
+  206  git status
+  207  git add .gitignore
+  208  cd ../
+  209  git add .gitignore
+  210  git status
+  211  git add documents
+  212  git status
+  213  git add trash
+  214  git status
+  215  git commit -m 'Practice2 1-4 done'
+  216  pwd
+  217  touch exec_command.log
+  218  history 300 > exec_command.log
